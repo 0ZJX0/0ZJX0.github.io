@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: Home
 permalink: /home/
 ---
-
 
 <div class="home">
 	
@@ -11,4 +10,6 @@ permalink: /home/
 	
 <p>…………（待补充）</p>
 
+{% include image.html url="/images/Jianxin.JPG" caption="Jianxin Zhang" width=300 align="right" %}
+	
 </div>
