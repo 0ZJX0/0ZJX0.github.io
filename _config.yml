@@ -1,5 +1,5 @@
 # Site settings
-title: Jianxin ZHANG
+title: Jianxin Zhang
 email: jianxin_zhang@foxmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -8,8 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Null
-github_username:  0ZJX0
-
+github_username: Null
 # Build settings
 markdown: kramdown
 
