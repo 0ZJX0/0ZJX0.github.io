@@ -7,8 +7,8 @@
 - title: "Publication"
   href: "/publication/"
 
-- title: "About"
-  href: "/about/"
+#- title: "About"
+  #href: "/about/"
 
 #- title: "CV"
   #href: "/cv/"
