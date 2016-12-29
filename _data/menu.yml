@@ -1,8 +1,8 @@
-- title: "Home"
+ - title: "Home"
     href: "/home/"
 
 
-- title: "Blog"
+ - title: "Blog"
     href: "/blog/"
     #设想在Blog下面建二级目录，将中文博客和英文博客分开，但止步于此，没有进一步尝试。其他想法：再重新建一个中文版的网站。
     #subcategories:
@@ -12,7 +12,7 @@
          #subhref: "/blog/blog-english/"
  
  
-- title: "Publication"
+ - title: "Publication"
     href: "/publication/"
   
 
