@@ -1,11 +1,17 @@
 - title: "Home"
-  href: "/home/"
+    href: "/home/"
 
 - title: "Blog"
-  href: "/blog/"
+    href: "/blog/"
+    subcategories:
+      - subtitle: "中文"
+         subhref: "/blog/blog-chinese"
+       -subtitle: "English"
+         subhref: "/blog/blog-english"
   
 - title: "Publication"
-  href: "/publication/"
+    href: "/publication/"
+  
 
 #- title: "About"
   #href: "/about/"
