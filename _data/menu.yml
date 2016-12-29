@@ -5,9 +5,9 @@
     href: "/blog/"
     subcategories:
       - subtitle: "中文"
-         subhref: "/blog/blog-chinese"
-       -subtitle: "English"
-         subhref: "/blog/blog-english"
+         subhref: "/blog/blog-chinese/"
+      - subtitle: "English"
+         subhref: "/blog/blog-english/"
   
 - title: "Publication"
     href: "/publication/"
