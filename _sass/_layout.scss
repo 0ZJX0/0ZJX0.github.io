@@ -115,7 +115,6 @@
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
-*/
 
 @include media-query($on-laptop) {
     .footer-col-1,
@@ -137,7 +136,7 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
+*/
 
 
 /**
