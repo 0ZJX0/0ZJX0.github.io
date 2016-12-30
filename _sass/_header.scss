@@ -2,33 +2,32 @@
  * Site header
  */
 .site-header {
-    border-top: 0px solid $grey-color-dark;
+	border-top: 0px solid $grey-color-dark;
 	border-bottom: 4px solid $clemson-purple;
-    min-height: 56px;
-    background: $clemson-orange;
-    // Positioning context for the mobile navigation icon
-    position: relative;
-
+	min-height: 56px;
+	background: $clemson-orange;
+	// Positioning context for the mobile navigation icon
+	position: relative;
 }
 
 .site-title {
-    font-size: 28px;
-    /* margin-top: 15px; 
-    line-height: 40px; */
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
-    &,
-    &:visited {
-        color: #ffffff;
-    }
-    &,
-    &:hover {
-	text-decoration: none;
-}
+	font-size: 28px;
+	/* margin-top: 15px; 
+	line-height: 40px; */
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left;
+	font-weight: 500;
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	&,
+	&:visited {
+		color: #ffffff;
+	}
+	&,
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .site-header .wrapper {
@@ -41,7 +40,6 @@
 }
 
 .site-nav ul {
-
 	text-align: right;
 	float: right;
 	padding-top: 9px;
@@ -53,8 +51,7 @@
 	padding: 0;
 	list-style-type: none;
 	text-transform: uppercase;
-		font-family: 'Titillium Web', sans-serif;
-
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .site-nav .menu > li {
@@ -73,8 +70,11 @@
         color: #ffffff;
 }
 
-/* Sub Menu */
 
+
+/**
+* Sub Menu 
+*/
 .site-nav .sub-menu a {
 	display: block;
 	font-weight: normal;
@@ -82,27 +82,25 @@
 	letter-spacing: 0;
 	line-height: 1.2em;
 	padding: 4px 10px;
-color: #522d80;
-
+	color: #522d80;
 }
 
 .site-nav .sub-menu a:hover {
 	color: $clemson-orange;
 }
+
 .site-nav  .sub-menu {
 	background: #ffffff;
 	border-color: $clemson-purple;
 	min-width: 265px;
-
 	z-index:2147483647;
 }
+
 .site-nav .sub-menu li.current-menu-item > a {
 	border-left-color: $clemson-orange;
 	border-right-color: $clemson-orange;
 	border-right: 0px;
-
 }
-
 
 .sub-menu {
 	border: 3px solid transparent;
@@ -119,10 +117,8 @@ color: #522d80;
 	text-transform: none;
 	top: 28px;
 	min-width: 265px;
-
-z-index:999;
+	z-index:999;
 	font-family: Helvetica, Arial, Verdana, sans-serif;
-
 }
 
 .sub-menu li {
@@ -138,79 +134,68 @@ z-index:999;
 	display: block;
 }
 
-
-
 .site-nav h1 {
 	position: absolute;
 	left: -999em;
 }
 
-
 .site-nav {
     float: right;
     line-height: 40px;
-
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: #ffffff;
-    background: $clemson-orange;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+	
+	.menu-icon {
+		display: none;
+	}
+	
+	.page-link {
+		color: #ffffff;
+		background: $clemson-orange;
+		line-height: $base-line-height;
+		// Gaps between nav items, but not on the first one
+		&:not(:first-child) {
+			margin-left: 20px;
+		}
+	}
+	
+	@include media-query($on-palm) {
+		position: absolute;
+		top: 9px;
+		right: 30px;
+		background-color: $background-color;
+		border: 1px solid $grey-color-light;
+		border-radius: 5px;
+		text-align: right;
+		
+		.menu-icon {
+			display: block;
+			float: right;
+			width: 36px;
+			height: 26px;
+			line-height: 0;
+			padding-top: 10px;
+			text-align: center;
+			> svg {
+				width: 18px;
+				height: 15px;
+				path {
+					fill: $grey-color-dark;
+				}
+			}
+		}
+		
+		.trigger {
+			clear: both;
+			display: none;
+		}
+		
+		&:hover .trigger {
+			display: block;
+			padding-bottom: 5px;
+		}
+		
+		.page-link {
+			display: block;
+			padding: 5px 10px;
+		}
+	}
 }
-
-
