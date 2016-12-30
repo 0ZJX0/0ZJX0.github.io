@@ -3,7 +3,7 @@
  */
 .site-header {
 	border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-purple;
+	border-bottom: 0px solid $clemson-purple;
 	min-height: 56px;
 	background: $clemson-orange;
 	// Positioning context for the mobile navigation icon
@@ -42,7 +42,7 @@
 .site-nav ul {
 	text-align: right;
 	float: right;
-	padding-top: 25px;
+	padding-top: 10px;
 	font-size: 80%;
 	letter-spacing: 1px;
 	line-height: 1em;
