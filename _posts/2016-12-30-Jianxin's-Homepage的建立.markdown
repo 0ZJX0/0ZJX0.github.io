@@ -1,5 +1,4 @@
-# Jianxin's Homepage的建立
-***
+
 耗时两天，终于将自己的个人网站（[Jianxin's Homepage](www.jianxin.website)）建立起来。但是，网站还只有一个框架，仅仅具备最基础的功能，还有许多东西需要慢慢完善。  
 
 ### 网站搭建流程  
