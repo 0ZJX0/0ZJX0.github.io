@@ -23,28 +23,26 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+	border-top: 1px solid $grey-color-light;
+	padding: $spacing-unit 0;
 }
 
 .footer-heading {
-    font-size: 12px;
-    margin-bottom: $spacing-unit / 2;
+	font-size: 12px;
+	margin-bottom: $spacing-unit / 2;
 }
 
 .footer-col-wrapper {
-    font-size: 12px;
-    color: $grey-color;
-    /*margin-left: -$spacing-unit / 2;
-    text-align: center;  */
-    margin-top: 0; 
-    @extend %clearfix; 
+	font-size: 12px;
+	color: $grey-color;
+	margin-top: 0; 
+	@extend %clearfix; 
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+	float: left;
+	margin-bottom: $spacing-unit / 2;
+	padding-left: $spacing-unit / 2;
 }
 
 
@@ -52,74 +50,57 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+	padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+	margin-left: 0;
+	list-style: none;
+	> li {
+		margin-bottom: $spacing-unit;
+	}
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+	font-size: $small-font-size;
+	color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+	display: block;
+	font-size: 24px;
 }
-
 
 
 /**
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
-}
-
-h1 /* .post-title */ {
-     /* font-size: 42px; */
-     letter-spacing: -1px;
-     line-height: 1;
-     font-family: 'Titillium Web', sans-serif;
-     color: #522d80;
-    /* @include media-query($on-laptop) {
-       font-size: 36px; 
-      }*/
+	margin-bottom: $spacing-unit;
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-    h2 {
+	margin-bottom: $spacing-unit;
+	
+	h1 {
+	letter-spacing: -1px;
+	line-height: 1;
 	font-family: 'Titillium Web', sans-serif;
-	font-weight: 500;
-       /* font-size: 32px; */
-       /* @include media-query($on-laptop) {
-       font-size: 28px; 
-         }*/
-     }
-    h3 {
-	font-style: italic;
-        /* font-size: 26px; */
-      /*  @include media-query($on-laptop) {
-         font-size: 22px; 
-         }*/
-     }
-    h4 {
-        /* font-size: 20px; */
-       /*@include media-query($on-laptop) {
-         font-size: 18px; 
-        }*/
-     }
+	color: #522d80;
+	}
+	
+	h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 500;
+	}
+	
+	h3 {
+		font-style: italic;
+	}
 }
 
 
@@ -128,7 +109,7 @@ h1 /* .post-title */ {
 
 
 html {
-  overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 ul.listing {
@@ -155,4 +136,3 @@ ul.listing li.listing-item a {
 	font-weight: 400;
 	font-family: 'Titillium Web', sans-serif;
 }
-
